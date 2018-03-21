@@ -1,0 +1,576 @@
+    .wrapper {
+        width: 650px;
+        font-family: sans-serif;
+        margin: auto;
+    }
+    
+    .header .logo {
+        background: #4cb62c;
+        width: 240px;
+        height: 220px;
+        display: block;
+        float: left;
+    }
+    
+    .header .logo img {
+        margin-top: 25%;
+        margin-left: 25%;
+    }
+    
+    .contacts {
+        background-image: url(img/backgroundContacts.png);
+        width: 410px;
+        height: 220px;
+        display: block;
+        float: right;
+        color: white;
+    }
+    
+    .contacts .links a {
+        position: relative;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 50px;
+        top: 30px;
+    }
+    
+    .contacts p:first-of-type {
+        position: relative;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .contacts p {
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+    
+    .contacts .color-text {
+        display: inline-block;
+        color: #ffa800;
+    }
+    
+    .sign-up {
+        clear: both;
+        background: url(img/NLAssist.png) no-repeat 445px 160px, url(img/backgroundIphone.png) no-repeat 404px 80px, url(img/iPhone.png) no-repeat 390px 25px, url(img/backgroundClouds.png);
+        width: 650px;
+        height: 465px;
+    }
+    
+    .sign-up .logo img {
+        display: block;
+        padding-top: 60px;
+        margin-left: 50px;
+        width: 110px;
+    }
+    
+    .sign-up .hello {
+        position: relative;
+        display: block;
+        margin-left: 50px;
+        margin-top: 45px;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .sign-up .text {
+        display: block;
+        margin-left: 50px;
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    .sign-up .join-btn {
+        color: #ffffff;
+        background-color: #ffa800;
+        border-radius: 3px;
+        display: inline-block;
+        width: 160px;
+        height: 50px;
+        line-height: 50px;
+        font-family: PTSans;
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 35px;
+    }
+    
+    .sign-up a,
+    .applications a,
+    .subscribe a,
+    .neboskreb a {
+        text-decoration: none;
+    }
+    
+    .introduction {
+        background: url(img/note.png) no-repeat right 85px, url(img/backgroundIntroduction.png);
+        width: 650px;
+        height: 425px;
+    }
+    
+    .introduction div:nth-child(1) {
+        width: 495px;
+        padding-top: 55px;
+        margin-left: 50px;
+        font-size: 17px;
+    }
+    
+    .introduction div:nth-child(2) {
+        width: 475px;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    
+    .introduction div:nth-child(3) {
+        width: 430px;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 17px;
+    }
+    
+    .introduction div:nth-child(4) {
+        width: 535px;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 17px;
+    }
+    
+    .chat {
+        background: url(img/chat.png) no-repeat 58px 114px, url(img/iPhone.png) no-repeat 45px 60px, url(img/backgroundChat.png);
+        background-size: 220px 390px, auto, auto;
+        width: 650px;
+        height: 760px;
+        color: #ffffff;
+    }
+    
+    .chat .find {
+        float: right;
+        width: 270px;
+        margin-top: 85px;
+        margin-right: 50px;
+    }
+    
+    .chat .find .caption {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .chat .find .bold {
+        font-weight: bold;
+        font-size: 18px;
+        display: inline-block;
+    }
+    
+    .chat .find div:nth-child(2) {
+        margin-top: 15px;
+        width: 260px;
+        text-align: justify;
+    }
+    
+    .chat .find div:nth-child(3) {
+        margin-top: 15px;
+        width: 250px;
+    }
+    
+    .chat .find div:nth-child(4) {
+        margin-top: 15px;
+    }
+    
+    .chat .find div:nth-child(5) {
+        margin-top: 15px;
+    }
+    
+    .chat .find ul {
+        width: 200px;
+        margin-left: -20px;
+        margin-top: 15px;
+    }
+    
+    .chat .find ul li {
+        padding-bottom: 10px;
+    }
+    
+    .chat > div:nth-child(2) {
+        clear: both;
+        position: relative;
+        top: 35px;
+        left: 35px;
+        text-align: center;
+        font-size: 24px;
+        color: #1f8cd7;
+        background: #ffffff;
+        border-radius: 50%;
+        line-height: 32px;
+        width: 32px;
+        height: 32px;
+        z-index: 1;
+    }
+    
+    .chat > div:nth-child(3) {
+        clear: both;
+        position: relative;
+        margin-top: 20px;
+        left: 50px;
+        border: 2px solid #ffffff;
+        width: 575px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 17px;
+    }
+    
+    .chat > div:nth-child(4) {
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 410px;
+        font-size: 17px;
+    }
+    
+    .chat .coffee {
+        position: relative;
+        float: right;
+        top: -70px;
+        right: 0px;
+    }
+    
+    .instruction {
+        width: 650px;
+        height: 440px;
+    }
+    
+    .instruction::before {
+        content: "";
+        overflow: hidden;
+        display: block;
+    }
+    
+    .instruction .headline {
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 415px;
+    }
+    
+    .instruction .headline + div {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    
+    .instruction ul {
+        margin-top: 10px;
+        margin-left: 35px;
+        width: 410px;
+        color: #1f8cd7;
+        font-size: 30px;
+        line-height: 20px;
+    }
+    
+    .instruction li {
+        margin-bottom: 5px;
+    }
+    
+    .instruction li span {
+        color: black;
+        font-size: 17px;
+        vertical-align: middle;
+    }
+    
+    .instruction div:nth-last-child(2) {
+        margin-top: -15px;
+        margin-left: 50px;
+    }
+    
+    .instruction div:nth-last-child(1) {
+        width: 450px;
+        margin-top: 20px;
+        margin-left: 50px;
+        line-height: 25px;
+    }
+    
+    .applications {
+        width: 650px;
+        height: 306px;
+        background-color: #f6f6f6;
+    }
+    
+    .applications .store-img {
+        margin-left: 50px;
+        margin-top: 40px;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        background: url(img/NLStore.png) no-repeat;
+    }
+    
+    .applications .store-text {
+        margin-top: 40px;
+        margin-left: 20px;
+        vertical-align: top;
+        display: inline-block;
+        width: 147px;
+        line-height: 25px;
+    }
+    
+    .applications .store-caption {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .applications .reader-img {
+        margin-left: 60px;
+        margin-top: 40px;
+        vertical-align: top;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        background: url(img/NLreader.png) center center no-repeat, #a0e7ff;
+        border-radius: 3px;
+    }
+    
+    .applications .reader-img img {
+        margin-left: 11px;
+        margin-top: 11px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .applications .reader-text {
+        margin-top: 40px;
+        margin-left: 20px;
+        vertical-align: top;
+        display: inline-block;
+        width: 147px;
+        line-height: 25px;
+    }
+    
+    .applications .reader-caption {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .applications .app-store {
+        background: url(img/appstore.png) center center no-repeat, black;
+        border-radius: 3px;
+        height: 50px;
+        width: 180px;
+    }
+    
+    .applications .app-nl-store {
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    
+    .applications .app-nl-reader {
+        display: inline-block;
+        margin-left: 127px;
+    }
+    
+    .applications .goo-play {
+        background: url(img/googleplay.png) center center no-repeat, black;
+        border-radius: 3px;
+        height: 50px;
+        width: 180px;
+    }
+    
+    .applications .goo-nl-store {
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .applications .goo-nl-reader {
+        display: inline-block;
+        margin-left: 127px;
+    }
+    
+    .subscribe {
+        width: 650px;
+        height: 230px;
+    }
+    
+    .subscribe .news-img {
+        margin-left: 50px;
+        margin-top: 40px;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        background: url(img/nlNews.png) no-repeat;
+    }
+    
+    .subscribe .news-text {
+        margin-top: 40px;
+        margin-left: 20px;
+        vertical-align: top;
+        display: inline-block;
+        width: 147px;
+        line-height: 25px;
+    }
+    
+    .subscribe .news-caption {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .subscribe .assistant-img {
+        margin-left: 60px;
+        margin-top: 40px;
+        vertical-align: top;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        background: url(img/NLAssist.png) center center no-repeat;
+        background-size: contain;
+        border-radius: 50%;
+    }
+    
+    .subscribe .assistant-text {
+        margin-top: 40px;
+        margin-left: 20px;
+        vertical-align: top;
+        display: inline-block;
+        width: 160px;
+        line-height: 25px;
+    }
+    
+    .subscribe .assistant-caption {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .subscribe .subscribe-btn {
+        display: inline-block;
+        background: #34ace0;
+        width: 145px;
+        height: 45px;
+        color: white;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 45px;
+    }
+    
+    .subscribe .news-btn {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .subscribe .assistant-btn {
+        margin-left: 162px;
+    }
+    
+    .neboskreb {
+        width: 650px;
+        height: 230px;
+        background-color: #f6f6f6;
+    }
+    
+    .neboskreb .neboskreb-img {
+        margin-left: 210px;
+        margin-top: 30px;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        background: url(img/Neboskreb.png) no-repeat;
+    }
+    
+    .neboskreb .neboskreb-text {
+        margin-top: 30px;
+        margin-left: 15px;
+        vertical-align: top;
+        display: inline-block;
+        width: 147px;
+        line-height: 25px;
+    }
+    
+    .neboskreb .neboskreb-caption {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .neboskreb .app-store {
+        background: url(img/appstore.png) center center no-repeat, black;
+        height: 50px;
+        width: 180px;
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 140px;
+        margin-top: 40px;
+    }
+    
+    .neboskreb .goo-play {
+        background: url(img/googleplay.png) center center no-repeat, black;
+        height: 50px;
+        width: 180px;
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+    
+    .social {
+        width: 650px;
+        height: 225px;
+    }
+    
+    .social .caption {
+        color: #000000;
+        font-size: 26px;
+        font-weight: 700;
+        width: 370px;
+        margin-top: 30px;
+        margin-left: 140px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .social ul {
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    
+    .social li {
+        display: inline-block;
+        margin-right: 45px;
+    }
+    
+    .social img {
+        margin-right: 10px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .social .text {
+        margin-left: 70px;
+        width: 510px;
+        font-size: 18px;
+    }
+    
+    .social .bold {
+        font-weight: 700;
+        font-size: 19px;
+        display: inline-block;
+    }
