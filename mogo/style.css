@@ -467,23 +467,45 @@ header .bottom-menu li span:last-child {
 }
 
 .block-6 .about-services {
-    outline: 1px solid black;
     display: inline-block;
     width: 600px;
+    height: 380px;
     margin-left: 30px;
+    vertical-align: top;
+    text-align: left;
 }
 
+.block-6 .about-services img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px;
+}
 
+.block-6 .about-services a.open-content {
+    color: #333333;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 60px;
+    position: relative;
+    width: 600px;
+    height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5;
+}
 
-.spoiler > input + label:after{content: "+";float: right;font-family: monospace;font-weight: bold;}
-.spoiler > input:checked + label:after{content: "-";float: right;font-family: monospace;font-weight: bold;}
-.spoiler > input{display:none;}
-.spoiler > input + label , .spoiler > .spoiler_body{background:#CCC;padding:5px 15px;overflow:hidden;width:100%;box-sizing: border-box;display: block;}
-.spoiler > input + label + .spoiler_body{display:none;}
-.spoiler > input:checked + label + .spoiler_body{display: block;}
-.spoiler > .spoiler_body{background: #FFF;border: 3px solid #CCC;border-top: none;}
-
-
+.block-6 .about-services .spoiler div {
+    height: 180px;
+    overflow-y: scroll;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #999999;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
 
 .block-7 {
     height: 290px;
@@ -1225,7 +1247,7 @@ footer .description .socials a {
 }
 
 footer .description .input-field {
-  margin-top: 35px;
+    margin-top: 35px;
 }
 
 footer .description .input-field input[type="text"] {

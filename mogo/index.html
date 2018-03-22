@@ -77,12 +77,24 @@
             <div class="description"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
             <div class="services">
                 <div class="image"><img src="img/Layer%2043.png" alt=""></div>
-                <div class="about-services"> <img src="img/PICTURE_g.svg" alt=""> <img src="img/EQUALIZER.svg" alt=""> <img src="img/BULLSEYE.svg" alt="">
+                <div class="about-services">
                     <div class="spoiler">
-                        <input type="checkbox" id="spoilerid_1">
-                        <label for="spoilerid_1">Заголовок</label>
-                        <div class="spoiler_body">Скрываемый текст</div>
-                    </div> Photography <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span> creativity web design</div>
+                        <a class="open-content" href="javascript:collapsElement('opencontent')" title="" rel="nofollow"><img src="img/PICTURE_g.svg" alt=""><span>Photography</span></a>
+                        <div id="opencontent" style="display: none">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 1.</span>
+                        </div>
+                    </div>
+                    <div class="spoiler"><a class="open-content" href="javascript:collapsElement('opencontent2')" title="" rel="nofollow"><img src="img/EQUALIZER.svg" alt=""><span>creativity</span></a>
+                        <div id="opencontent2" style="display: none">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 2.</span>
+                        </div>
+                    </div>
+                    <div class="spoiler"><a class="open-content" href="javascript:collapsElement('opencontent3')" title="" rel="nofollow"><img src="img/BULLSEYE.svg" alt=""><span>web design</span></a>
+                        <div id="opencontent3" style="display: none">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 3.</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="block-7">
@@ -209,6 +221,22 @@
             <div class="copyright"> &copy; 2016 MoGo free PSD template by <a href="#">Laaqiq</a></div>
         </footer>
     </div>
+    <script>
+        var lastOpen;
+
+        function collapsElement(id) {
+            if (document.getElementById(id).style.display != "none") {
+                document.getElementById(id).style.display = 'none';
+            }
+            else {
+                if (lastOpen !== undefined) {
+                    lastOpen.style.display = 'none';
+                }
+                lastOpen = document.getElementById(id);
+                document.getElementById(id).style.display = '';
+            }
+        }
+    </script>
 </body>
 
 </html>
