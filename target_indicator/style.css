@@ -1,0 +1,115 @@
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.shape {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -175px;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: block;
+    vertical-align: top;
+    background: #eff7ef;
+    font-size: 15px;
+}
+
+.shape .caption {
+    height: 30px;
+    line-height: 28px;
+    padding-left: 10px;
+    background: #4a4a4a;
+    color: #ffffff;
+    border-radius: 7px 7px 0 0;
+}
+
+.shape .indicator {
+    background: #ffffff;
+    width: 290px;
+    height: 85px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #d6d6ce;
+    padding-top: 10px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.shape .indicator .target-line {
+    width: 120px;
+    height: 13px;
+    background: #cecece;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.shape .indicator .target-line-current {
+    position: absolute;
+    height: 7px;
+    background: #008cce;
+    top: 32px;
+    left: 117px;
+}
+
+.shape .indicator .target-box {
+    display: inline-block;
+    color: #ffffff;
+    background: #8c7b7b;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    margin-left: -5px;
+    border-radius: 3px;
+}
+
+.shape .indicator .target-box span:first-child {
+    display: block;
+}
+
+.shape .indicator .target-box span:first-child::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin-left: 5px;
+    background: #000000;
+}
+
+.shape .indicator .info {
+    margin-top: 20px;
+    margin-left: -5px;
+    vertical-align: top;
+}
+
+.shape .indicator .info>span {
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.shape .indicator .arrow {
+    position: absolute;
+    font-size: 12px;
+    left: 106px;
+    top: 44px;
+}
+
+.shape .indicator .arrow::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom-color: #000000;
+    border-top: 0;
+    margin-left: 5px;
+}
+
+.image {
+    display: inline-block;
+    vertical-align: top;
+}
