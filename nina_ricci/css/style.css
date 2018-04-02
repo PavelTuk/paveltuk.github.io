@@ -1,0 +1,573 @@
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'ProximaNova', sans-serif;
+    color: #ffffff;
+}
+
+.block-1 {
+    height: 650px;
+    width: 1440px;
+    background: rgb(74, 74, 74) url(../img/background-block-1-filter.png) no-repeat;
+    position: relative;
+    padding-top: 150px;
+}
+
+.block-1 .text {
+    width: 600px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.block-1 .text>span:first-child {
+    display: block;
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 180px;
+    text-transform: uppercase;
+}
+
+.block-1 .text>span:last-of-type {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.block-1 .text .hashtags {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.block-1 .text .hashtags a {
+    color: #00bfff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.block-1 .like {
+    margin-top: 80px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.block-1 .like span {
+    font-size: 18px;
+    line-height: bold;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.block-1 .iphone {
+    position: absolute;
+    right: 110px;
+    top: 110px;
+}
+
+.block-1 .iphone .iphone-display {
+    background: url(../img/doodoosonic-97679.png) no-repeat;
+    background-position: -885px -200px;
+    width: 361px;
+    height: 593px;
+    position: absolute;
+    top: 93px;
+    right: 85px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.block-1 .iphone .iphone-display span:nth-child(1) {
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.block-1 .iphone .iphone-display span:nth-child(2) {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 180px;
+    left: 25px;
+    font-family: serif;
+}
+
+.block-1 .iphone .iphone-display span:nth-child(3) {
+    font-size: 90px;
+    font-weight: bold;
+    color: #a48658;
+    position: absolute;
+    bottom: 150px;
+    right: 5px;
+    font-family: serif;
+}
+
+.block-1 .iphone .iphone-display span:nth-child(4) {
+    font-size: 56px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 120px;
+    left: 25px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.block-1 .iphone .iphone-display span:nth-child(5) {
+    font-size: 16px;
+    line-height: 30px;
+    position: absolute;
+    bottom: -70px;
+    left: 25px;
+    width: 320px;
+}
+
+.block-1 .iphone .img-dog {
+    position: absolute;
+    right: 215px;
+    top: 100px;
+}
+
+.block-1 .iphone .menu {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    width: 30px;
+    height: 6px;
+    background: #a48658;
+    box-shadow: 5px 10px #a48658;
+}
+
+.block-1 .close {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.block-1 .close::before,
+.block-1 .close::after {
+    position: absolute;
+    left: 15px;
+    content: '';
+    height: 30px;
+    width: 5px;
+    background-color: #ffffff;
+}
+
+.block-1 .close::before {
+    transform: rotate(45deg);
+}
+
+.block-1 .close::after {
+    transform: rotate(-45deg);
+}
+
+.block-2 {
+    height: 525px;
+    width: 1440px;
+    position: relative;
+    padding-top: 275px;
+}
+
+.block-2 .text {
+    color: #4a4a4a;
+    width: 600px;
+    margin-left: 180px;
+}
+
+.block-2 .text>span:first-child {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.block-2 .text>span:last-child {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.block-2 .producer {
+    background: #a48658;
+    height: 215px;
+    width: 515px;
+    margin-left: 180px;
+    margin-top: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+.block-2 .producer>span:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 110px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.block-2 .producer>span:last-of-type {
+    display: block;
+    font-size: 21px;
+    width: 350px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.block-2 .producer .bitmap-1 {
+    position: absolute;
+    top: 50px;
+    left: -180px;
+}
+
+.block-2 .producer .frog {
+    position: absolute;
+    top: 35px;
+    left: -65px;
+}
+
+.block-2 .photo-1 {
+    position: absolute;
+    bottom: -285px;
+    left: 385px;
+    z-index: 2;
+}
+
+.block-2 .photo-2 {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    z-index: 1;
+}
+
+.block-2 .hashtag-success {
+    position: absolute;
+    background: #a48658;
+    height: 130px;
+    width: 430px;
+    text-align: center;
+    bottom: -110px;
+    right: 200px;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 130px;
+    z-index: 3;
+}
+
+.block-3 {
+    height: 525px;
+    width: 1440px;
+    position: relative;
+    padding-top: 275px;
+    background: rgb(74, 74, 74) url(../img/background-block-3-filter.png) no-repeat 0 -70px;
+}
+
+.block-3 .text {
+    width: 600px;
+    margin-left: 180px;
+}
+
+.block-3 .text>span:first-child {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.block-3 .text>span:last-child {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.block-3 .icons {
+    margin-top: 60px;
+    margin-left: 180px;
+    width: 700px
+}
+
+.block-3 .icons>img {
+    margin-right: 60px;
+}
+
+.block-3 .director {
+    background: #a48658;
+    height: 211px;
+    width: 563px;
+    position: absolute;
+    right: 92px;
+    bottom: -50px;
+}
+
+.block-3 .director>span:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.block-3 .director>span:last-of-type {
+    display: block;
+    font-size: 21px;
+    width: 410px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.block-3 .director .bitmap-2 {
+    position: absolute;
+    bottom: -200px;
+    right: 450px;
+}
+
+.block-4 {
+    height: 2555px;
+    width: 1440px;
+    position: relative;
+    padding-top: 235px;
+}
+
+.block-4 .text {
+    width: 600px;
+    margin-left: 190px;
+    color: #4a4a4a;
+}
+
+.block-4 .text>span:first-child {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.block-4 .text>span:last-child {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.block-4 .director {
+    background: #a48658;
+    height: 180px;
+    width: 560px;
+    position: relative;
+    left: 230px;
+    top: 105px;
+    z-index: 5;
+}
+
+.block-4 .director>span:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.block-4 .director>span:last-of-type {
+    display: block;
+    font-size: 21px;
+    width: 410px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.block-4 .director .bitmap-3 {
+    position: absolute;
+    bottom: -100px;
+    left: -220px;
+}
+
+.block-4 .nina-ricci-text {
+    position: absolute;
+    content: '';
+    width: 117px;
+    height: 131px;
+    background: #a48658;
+    right: 0;
+    top: 550px;
+}
+
+.block-4 .nina-ricci-text::before {
+    background: url(../img/nina-ricci.png) no-repeat center;
+    content: '';
+    width: 250px;
+    height: 131px;
+    left: -300px;
+    position: absolute;
+    display: block;
+}
+
+.block-4 .left-brown-block {
+    position: absolute;
+    content: '';
+    width: 347px;
+    height: 674px;
+    background: #a48658;
+    left: 0;
+    top: 850px;
+}
+
+.block-4 .left-brown-block>img {
+    position: absolute;
+    top: 170px;
+    left: 128px;
+    z-index: 3;
+}
+
+.block-4 .left-brown-block .hashtag-success {
+    position: absolute;
+    color: #a48658;
+    top: 235px;
+    left: 450px;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.block-4 .left-brown-block .hashtag-money {
+    position: absolute;
+    color: #a48658;
+    top: 845px;
+    left: 50px;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.block-4 .image-block-4-1 {
+    position: absolute;
+    left: 150px;
+    top: 650px;
+    z-index: 2;
+}
+
+.block-4 .image-block-4-1>img:last-child {
+    position: absolute;
+    left: 50px;
+    bottom: 141px;
+}
+
+.block-4 .image-block-4-2 {
+    position: absolute;
+    right: 0;
+    top: 733px;
+    z-index: 1;
+}
+
+.block-4 .image-block-4-3 {
+    position: absolute;
+    top: 1460px;
+    right: 0;
+    z-index: 2;
+}
+
+.block-4 .image-block-4-4 {
+    position: absolute;
+    left: 0;
+    bottom: 210px;
+}
+
+.block-4 .image-block-4-5 {
+    position: absolute;
+    left: 50px;
+    bottom: 395px;
+    z-index: 1;
+}
+
+.block-4 .image-block-4-6 {
+    position: absolute;
+    right: 0;
+    bottom: 330px;
+    z-index: 1;
+}
+
+.block-4 .image-block-4-7 {
+    position: absolute;
+    left: 0;
+    bottom: -160px;
+    z-index: 1;
+}
+
+.block-4 .image-block-4-8 {
+    position: absolute;
+    left: 350px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.block-4 .hashtag-luxury {
+    position: absolute;
+    color: #a48658;
+    bottom: 125px;
+    right: 0;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1;
+    overflow: hidden;
+    width: 405px;
+}
+
+.block-5 {
+    height: 490px;
+    width: 1440px;
+    position: relative;
+    padding-top: 275px;
+    position: relative;
+    /*background: url(https://www.youtube.com/watch?v=6hAwluvzAdc);*/
+}
+
+.block-5 .text {
+    width: 600px;
+    margin-left: 190px;
+    z-index: 3;
+}
+
+.block-5 .text>span:first-child {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a48658;
+}
+
+.block-5 .text>span:last-of-type {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.block-5 .img-snoop {
+    position: absolute;
+    right: 0;
+    top: -120px;
+    z-index: 1;
+}
+
+.block-5 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.block-5 .on-video {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
