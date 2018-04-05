@@ -40,7 +40,7 @@ $(document).ready($.ajax({
 $('#btn').on('click', foo)
 
 function foo() {
-    if (initialValue && initialValue <= target) {
+    if (initialValue) {
         $('.loading-bar').width(Math.ceil(initialValue) / target * 100 + '%');
         var percentDif = 100 - parseInt(loadingBar.style.width);
         var count = dif / 0.2;
@@ -50,14 +50,11 @@ function foo() {
         var interval = setInterval(
             () => {
                 initialValue += 0.2;
-                if (initialValue <= target) {
-                    $('.loading-bar').width(step + parseFloat(loadingBar.style.width) + '%');
-                    dif = target - initialValue;
-                    $('#targetSpan').text(dif.toFixed(2));
-                    $('#number-container').text('$' + initialValue.toFixed(1));
-                }
-                /*if (parseFloat(loadingBar.style.width) > 100)*/
-                if (initialValue >= target) {
+                $('.loading-bar').width(step + parseFloat(loadingBar.style.width) + '%');
+                dif = target - initialValue;
+                $('#targetSpan').text(dif.toFixed(2));
+                $('#number-container').text('$' + initialValue.toFixed(1));
+                if (parseFloat(loadingBar.style.width) > 100) {
                     $('.target').addClass('done');
                     $('.second-flex:first').fadeTo(250, 0);
                     setTimeout(
@@ -67,7 +64,7 @@ function foo() {
                     clearInterval(interval)
                 }
                 console.log(loadingBar.style.width)
-            }, 2000)
+            }, 500)
     }
     else {
         console.log('error')
