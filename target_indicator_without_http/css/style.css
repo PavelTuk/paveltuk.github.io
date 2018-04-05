@@ -1,0 +1,132 @@
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.shape {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -175px;
+    border: 1px solid #636363;
+    border-radius: 7px;
+    display: block;
+    vertical-align: top;
+    background: url(../img/background.png);
+    font-size: 14px;
+    font-family: sans-serif;
+    box-shadow: 0 0 15px 1px gray;
+}
+
+.shape .caption {
+    height: 30px;
+    line-height: 28px;
+    padding-left: 13px;
+    background: url(../img/background-caption.png);
+    color: #ffffff;
+    border-radius: 6px 6px 0 0;
+}
+
+.shape .indicator {
+    background: #ffffff;
+    width: 326px;
+    height: 95px;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border: 1px solid #d6d6ce;
+    position: relative;
+    color: #636363;
+}
+
+.shape .indicator>span {
+    position: absolute;
+    top: 22px;
+    left: 43px;
+    font-size: 14px;
+}
+
+.shape .indicator .target-line {
+    position: absolute;
+    top: 24px;
+    left: 119px;
+    width: 119px;
+    height: 13px;
+    background: #cecece;
+    display: inline-block;
+}
+
+.shape .indicator .target-line-current {
+    position: absolute;
+    height: 7px;
+    width: 0;
+    background: #008cce;
+    top: 27px;
+    left: 122px;
+}
+
+.shape .indicator .target-box {
+    position: absolute;
+    top: 9px;
+    right: 37px;
+    display: inline-block;
+    color: #ffffff;
+    background: url(../img/box.png);
+    width: 49px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #ded6de;
+}
+
+.shape .indicator .target-box span:first-child {
+    display: block;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.shape .indicator .target-box span:first-child::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin: 1px 5px;
+    background: #b5ada5;
+}
+
+.shape .indicator .info {
+    position: absolute;
+    top: 67px;
+    left: 38px;
+}
+
+.shape .indicator .info>span {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.shape .indicator .info>img {
+    vertical-align: middle;
+}
+
+.shape .indicator .arrow {
+    position: absolute;
+    font-size: 12px;
+    left: 113px;
+    top: 38px;
+    width: 30px;
+    z-index: 1;
+}
+
+.shape .indicator .arrow::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-bottom-color: #636363;
+    border-top: 0;
+    margin: 2px 0 1px 5px;
+}
