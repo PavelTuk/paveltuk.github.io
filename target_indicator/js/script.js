@@ -1,6 +1,6 @@
 jQuery('document').ready(function () {
     jQuery.ajax({
-        url: 'https://paveltuk.github.io/paveltuk.github.io/target_indicator_api/'
+        url: 'http://alex.devel.softservice.org/testapi/'
         , method: 'get'
         , dataType: 'json'
         , success: function (data) {
