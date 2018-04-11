@@ -1,0 +1,19 @@
+
+.icon-Facebook {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-LinkdIn {
+  background-image: url(sprite.png);
+  background-position: -24px 0px;
+  width: 24px;
+  height: 24px;
+}
+.icon-Twitter {
+  background-image: url(sprite.png);
+  background-position: 0px -24px;
+  width: 24px;
+  height: 24px;
+}
