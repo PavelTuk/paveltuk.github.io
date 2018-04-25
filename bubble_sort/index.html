@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bubble sort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/jquery-swapsies.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="caption"><span>Исходный массив</span></div>
+        <div class="frame" id="initial-array"></div>
+        <div class="caption"><span>Отсортированный массив</span></div>
+        <div class="frame" id="sorted-array"></div>
+        <div class="options">
+            <input id="minValue" type="number" value="1">
+            <label for="minValue">Минимальное значение</label>
+            <input id="maxValue" type="number" value="999">
+            <label for="maxValue">Максимальное значение</label>
+            <input id="count" type="number" value="10">
+            <label for="count">Количество элементов</label>
+        </div>
+        <div class="buttons">
+            <button class="button" id="btn-generate">Сгенерировать числа</button>
+            <button class="button" id="btn-sorting" disabled>Отсортировать числа</button>
+        </div>
+        <div class="manual">
+            <ul>
+                <li>Введите в поля "Минимальное значение" и "Максимальное значение" диапазон для генерации чисел. В поле "Количество элементов" соответственно задайте количество генерируемых элементов.</li>
+                <li>По умолчанию диапазон установлен от 1 до 999, а количество элементов равно 10.</li>
+                <li> Нажатие кнопки "Сгенерировать числа" запустит алгоритм, генерирующий массив чисел в соответствии с заданными параметрами (диапазоном и количеством элементов. Сгенерированный массив будет отображён в блоке "Исходный массив".</li>
+                <li> Нажатие кнопки "Отсортировать числа" запустит алгоритм сортировки "пузырьком".</li>
+                <li> Процесс и результат сортировки отображается в блоке "Отсортированный массив".</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
