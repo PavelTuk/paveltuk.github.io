@@ -18,7 +18,7 @@ header::after {
     height: 2px;
     background: gray;
     display: block;
-    margin: 10px 10px;
+    margin: 10px;
 }
 
 .buttons a {
@@ -36,7 +36,7 @@ header::after {
     display: block;
     text-decoration: none;
     color: #ffffff;
-    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    text-shadow: 1px 1px 5px black, 0 0 2px black;
 }
 
 .buttons a:hover {
@@ -46,4 +46,8 @@ header::after {
 .buttons .curriculum-vitae {
     background: red;
     margin-top: 50px;
+}
+
+.counter {
+    display: none;
 }
